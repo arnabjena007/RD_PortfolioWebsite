@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <meta name="title" content="Portfolio Website">
+  <meta name="description" content="This is made by Arnab Jen">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!--- #HEADER-->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#timeline-label" class="navbar-link hover-1" data-nav-toggler>Timeline</a>
+          </li>
+
+          <li>
+            <a href="#topic-label" class="navbar-link hover-1" data-nav-toggler>Projects</a>
+          </li>
+
+          <li>
+            <a href="#achievements-label" class="navbar-link hover-1" data-nav-toggler>Achievements</a>
+          </li>
+
+          <li>
+            <a href="#footer-label" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-bottom">
+
+          <div class="profile-card">
+            <img src="./assets/images/author-1.png" width="48" height="48" alt="Steven" class="profile-banner">
+
+            <div>
+              <p class="card-title">Hello Steven !</p>
+
+              <p class="card-subtitle">
+                You have 3 new messages
+              </p>
+            </div>
+          </div>
+
+          
+
+        </div>
+
+        <p class="copyright-text">
+          Copyright 2024 © Rohith Reddy Desai
+        </p>
+
+      </nav>
+
+      <a href="register.html" class="btn btn-primary">Subscribe</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hello Everyone!</p>
+
+            <h1 class="headline headline-1 section-title">
+              I’m <span class="span">Rohith Reddy</span>
+            </h1>
+
+            <p class="hero-text">
+              I'm Rohith Reddy Desai, a third-year student at <b>Madanapalle Institute of Technology & Science</b> and the founder of <b>Gyaantrix Technologies Pvt. Ltd.</b> My passion for technology and innovation drives me to create solutions for real-world problems. My entrepreneurial journey began with training at Stanford D School's University Innovation Fellow program, where I honed my skills in design thinking and leadership. I’ve been fortunate to receive recognition from Microsoft and Google, and my startup has gained support from Microsoft Founders Hub and Google Startup School. As a student coordinator for my college's innovation cell, I work to inspire creativity and collaboration among my peers. I'm committed to shaping the future of technology and making a meaningful impact in the field of computer science.
+            </p>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email_address" placeholder="Type your email address" required
+                class="input-field" autocomplete="off">
+
+              <button class="btn btn-primary">
+                <span class="span">Subscribe</span>
+
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.png" width="327" height="490" alt="Wren Clark" class="w-100">
+
+            <img src="./assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="./assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+      <!-- 
+        - #TIMELINE
+      -->
+
+      <section class="section timeline" aria-labelledby="timeline-label">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title" id="timeline-label">
+            <span class="span">Event Timeline</span>
+          </h2>
+
+          <p class="section-text">
+            A chronological journey through our key milestones
+          </p>
+
+          <ul class="timeline-list">
+
+            <li class="timeline-item">
+              <div class="timeline-card">
+                <p class="card-subtitle">Nov 2023 - Present</p>
+
+                <h3 class="card-title">Founder and CEO</h3>
+
+                <p class="card-text">
+                  Gyaantrix Technologies Private Limited
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <div class="timeline-card">
+                <p class="card-subtitle">Jan 2024 - Present</p>
+
+                <h3 class="card-title">Community member </h3>
+
+                <p class="card-text">
+                  Microsoft for Startups
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <div class="timeline-card">
+                <p class="card-subtitle">Oct 2023 - Present</p>
+
+                <h3 class="card-title">Pre incubatee </h3>
+
+                <p class="card-text">
+                  iTIC Incubator at IITH
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <div class="timeline-card">
+                <p class="card-subtitle">Sep 2022 - Present</p>
+
+                <h3 class="card-title">University Innovation Fellow</h3>
+
+                <p class="card-text">
+                  Hasso Plattner Institute of Design at Stanford
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <div class="timeline-card">
+                <p class="card-subtitle">Aug 2023 - Sep 2023</p>
+
+                <h3 class="card-title">Business and Data analysis Intern </h3>
+
+                <p class="card-text">
+                  YBI Foundation
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="Project" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                Projects
+              </h2>
+
+              <p class="card-text">
+                Checkout my projects
+              </p>
+
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-1.jpg" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Dharma</span>
+
+                      <p class="slider-subtitle">Revolutionizing legal processes by leveraging cutting-edge technology to enhance research capabilities and improve access to legal services. With a focus on reducing inefficiencies and time delays in the Indian judicial system, Dharma is set to streamline workflows and empower legal professionals</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-1.jpg" width="507" height="618" loading="lazy" alt="Travel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Bhubashika</span>
+
+                      <p class="slider-subtitle">Breaking language barriers with our innovative real-time translation technology, embedded in earbuds designed to understand various languages across India. Bhubashika promises seamless communication and cultural exchange, fostering connections and understanding in diverse communities</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-1.jpg" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Mitra</span>
+
+                      <p class="slider-subtitle">Empowering students planning to study abroad with comprehensive end-to-end support. From university applications to cultural adaptation, Mitra provides personalized guidance and resources, easing the transition and enhancing the overall experience for aspiring global scholars. With Mitra, students can embark on their educational journeys with confidence and clarity.</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-1.jpg" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Vega</span>
+
+                      <p class="slider-subtitle">Enhancing security and efficiency in transportation hubs through advanced AI and computer vision technology. Vega's intelligent systems optimize operations, detecting anomalies and potential threats in real-time, thereby significantly reducing processing time and ensuring safer travel experiences</p>
+                    </div>
+
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!--- #ACHIEVEMENTS-->
+
+      <section class="section achievements" aria-labelledby="achievements-label">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title" id="achievements-label">
+            <span class="span">Achievements</span>
+          </h2>
+
+          <p class="section-text">
+            Celebrating our key accomplishments and milestones.
+          </p>
+
+            <div class="achievements-grid">
+              <div class="achievements-item">
+              <div class="achievements-card">
+                <h3 class="card-title">Founded Startup Gyaantrix Technologies Pvt. Ltd</h3>
+              </div>
+            </div>
+
+            <div class="achievements-grid">
+              <div class="achievements-item">
+                <div class="achievements-card">
+                  <h3 class="card-title">Received grants totaling ₹1 lakh from IIT Hyderabad for innovative projects</h3>
+                </div>
+              </div>
+
+            <div class="achievements-grid">
+              <div class="achievements-item">
+                <div class="achievements-card">
+                  <h3 class="card-title">Selected for prestigious programs like Microsoft Founders Hub and Google Startup School</h3>
+                  </div>
+                </div>
+            
+            <div class="achievements-grid">
+              <div class="achievements-item">
+                <div class="achievements-card">
+                  <h3 class="card-title">Received grants totaling ₹1 lakh from IIT Hyderabad for innovative projects</h3>
+                </div>
+              </div>
+            
+            <div class="achievements-grid">
+              <div class="achievements-item">
+                <div class="achievements-card">
+                  <h3 class="card-title">Won first and second prizes in the MITS Innovation Challenge for projects "Nirdeshaka" and "Bahubashika.</h3>
+                </div>
+              </div>
+
+            <div class="achievements-grid">
+              <div class="achievements-item">
+                <div class="achievements-card">
+                  <h3 class="card-title">Secured third prize in the MITS Innovation Challenge for the project "Dharma.</h3>
+                </div>
+              </div>
+          </div>
+
+        </div>
+      </section>
+
+      <footer class="footer" aria-labelledby="footer-label">
+        <div class="container">
+          <h2 class="headline headline-2 section-title" id="footer-label">Contact</h2>
+          <p class="footer-text">Feel free to reach out to me on social media or via email.</p>
+          <ul class="social-list">
+            <li><a href="https://www.linkedin.com/in/rohith-reddy-desai-744946220" class="social-link" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="https://github.com/Drr1122" class="social-link" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a></li>
+            <li><a href="https://twitter.com/desai_red4?t=2Se-B_53GL9DEcrRjCqqIg&s=08" class="social-link" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/desai_rohith_reddy/" class="social-link" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="mailto:rohithreddydesai03@gmail.com" class="social-link" aria-label="Email"><ion-icon name="mail-outline"></ion-icon></a></li>
+          </ul>
+        </div>
+      </footer>
+
+
+
+      <!--  #BACK TO TOP-->
+
+      <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+      </a>
+
+      <!--- custom js link-->
+      <script src="./assets/js/script.js"></script>
+
+      <!--- ionicon link-->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+
+</html>
